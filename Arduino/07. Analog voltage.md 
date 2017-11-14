@@ -1,0 +1,15 @@
+# Analog Voltage
+
+for digital 
+
+it only has High(5V) or Low(0V)
+
+so for analog voltage, we have 0V to 5V
+
+Syntax is `analogWrite(pin, value);`
+
+###Range
+
+the range of analog is 0 to 255(Which is mapping into 0 to 5V in actual)
+
+so the slope is 51. equation: Analog Volt = 51* analog factor
